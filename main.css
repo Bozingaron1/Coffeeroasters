@@ -1,0 +1,225 @@
+
+.container{
+    max-width: 1600px;
+}
+header{
+    background-color: #F3D7B7;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+.navbar_a{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.header_block{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: 50px;
+}
+.header_block_text{
+    width: 500px;
+    margin-left: 50px;
+}
+.h1{
+    font-size: 66px;
+}
+button{
+    border-radius: 20px;
+    background: #0A775F;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 50px;
+}
+.header_photo img{
+    width: 200px;
+    animation-name: mars;
+    animation-duration: 5s;
+    transform-style: preserve-3d;
+    position: relative;
+    left: 250px;
+    bottom: 50px;
+    z-index: 1;
+}
+@keyframes mars{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+
+.header_photos{
+    position: relative;
+    top: 50px;
+    left: 30px;
+}
+
+.main-block{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 0px;
+    flex-wrap: wrap;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+
+}   
+
+h1{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: center;
+    font-variant: small-caps;
+    margin-top: 108px;
+}
+
+.main-block>h2{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    font-variant: small-caps;
+    width: 164px;
+    height: 56px;
+    margin-bottom: 10px;
+
+}
+
+
+.main-block-1{
+    margin: 0 auto;
+    padding: 50px;
+    margin-left: 150px;
+    margin-bottom: 120px;
+    display: flex;
+    text-align: center;
+}
+.main-block-2{
+    margin: 0 auto;
+    padding: 50px;
+    margin-left: 150px;
+    margin-bottom: 120px;
+    display: flex;
+}
+.main-block-3{
+    margin: 0 auto;
+    padding: 50px;
+    margin-left: 150px;
+    margin-bottom: 120px;
+    display: flex;
+}
+.main-block-4{
+    margin: 0 auto;
+    padding: 50px;
+    margin-left: 150px;
+    margin-bottom: 120px;
+    margin-right: 150px;
+    display: flex;
+}
+
+
+.footer-wrapper{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(243, 215, 183, 1);
+    align-items: center;
+    height: 160px;
+}
+
+.footer-a{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.header_block_text-about{
+    align-items: center;
+    margin-left: 50px;
+}
+
+.header_photos-about{
+    align-items: center;
+    width: 660px;
+    height: 390px;
+    position: relative;
+}
+
+.header_photo-about img{
+    width: 200px;
+    animation-name: mars;
+    animation-duration: 5s;
+    transform-style: preserve-3d;
+    position: relative;
+    left: 150px;
+    bottom: 100px;
+    z-index: 1;
+}
+
+.main-wrapper-about{
+    margin-top: 160px;
+    display: flex;
+    align-items: center;
+    margin: 160px 55px;
+}
+
+.main-wrapper-about>p{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    margin-left: 320px;
+}
+
+.main-text-about{
+    margin-left: 320px;
+    padding-top: 30px;
+    margin-left: 50px;
+}
+
+.main-block-about{
+    background-color: rgba(201, 155, 103, 1);
+    color: rgba(255, 255, 255, 1);
+    height: 510px;
+    margin-top: 255px;
+    padding: 50px;
+    height: 350px;
+}
+
+.main-block-about>p{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0px;
+}
+
+.main-block-img-about{
+    bottom: 300px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.main-block-wrapper-about{
+    position: relative;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.h1-about{
+    text-align: left;
+}
